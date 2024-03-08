@@ -1,45 +1,40 @@
 @import '../utils/variables';
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 body {
-    font-size: var(--text-base-size);
-    font-family: var(--font-family);
-    color: var(--color-text);
-}
-
-h1, h2, h3, h4, form legend {
-    color: var(--color-text-heading);
-    margin-bottom: var(--space-xxs);
-    line-height: var(--heading-line-height);
+    font-size: $text-base-size;
+    font-family: $font-family;
+    color: $color-black;
 }
 
 .text--xxxl {
-    font-size: var(--text-xxxl);
+    font-size: $text-xxxl;
 }
 
 h1, .text--xxl {
-    font-size: var(--text-xxl);
+    font-size: $text-xxl;
 }
 
 h2, .text--xl {
-    font-size: var(--text-xl);
+    font-size: $text-xl;
 }
 
 h3, .text--lg {
-    font-size: var(--text-lg);
+    font-size: $text-lg;
 }
 
 h4, .text--md {
-    font-size: var(--text-md);
+    font-size: $text-md;
 }
 
 .text--sm, small {
-    font-size: var(--text-sm);
+    font-size: $text-sm;
 }
 
 .text--xs {
-    font-size: var(--text-xs);
+    font-size: $text-xs;
 }
 
 p {
-    line-height: var(--body-line-height);
+    line-height: $body-line-height;
 }

@@ -1,15 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+$font-family: 'Montserrat';
+$body-line-height: 1;
+$text-base-size: 12px;
+$text-scale-ratio: 1.2;
+$text-xs: calc(#{$text-base-size} / (#{$text-scale-ratio} * #{$text-scale-ratio}));
+$text-sm: calc(#{$text-base-size} / #{$text-scale-ratio});
+$text-md: calc(#{$text-base-size} * #{$text-scale-ratio});
+$text-lg: calc(#{$text-base-size} * #{$text-scale-ratio} * #{$text-scale-ratio});
+$text-xl: calc(#{$text-base-size} * #{$text-scale-ratio} * #{$text-scale-ratio} * #{$text-scale-ratio});
+$text-xxl: calc(#{$text-base-size} * #{$text-scale-ratio} * #{$text-scale-ratio} * #{$text-scale-ratio} * #{$text-scale-ratio});
+$text-xxxl: calc(#{$text-base-size} * #{$text-scale-ratio} * #{$text-scale-ratio} * #{$text-scale-ratio} * #{$text-scale-ratio} * #{$text-scale-ratio});
 
-:root {
-    --font-family: 'Montserrat';
-    --text-base-size: 1em;
-    --text-scale-ratio: 1.2;
-    --body-line-height:1;
-    --text-xs: calc(1em / (var(--text-scale-ratio) * var(--text-scale-ratio)));
-    --text-sm: calc(1em / var(--text-scale-ratio));
-    --text-md: calc(1em * var(--text-scale-ratio));
-    --text-lg: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio));
-    --text-xl: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
-    --text-xxl: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
-    --text-xxxl: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
-}
+$color-black: #000;
+$color-white: #FFF;
+$color-red: #FF6060;
+
+$linear-gradient-transparent-grey: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(10, 10, 10, 0) 42%, rgba(4, 4, 4, 0.205) 99.99%, rgba(0, 0, 0, 0.5) 100%);
+
+$logo-width-small: 145px;
+$logo-width-large: 210px;
+
+$max-device-mobile: 480px;
+$max-device-tablet: 768px;
+$max-device-smallscreen: 1024px;
+$max-device-normalscreen: 1200px;
