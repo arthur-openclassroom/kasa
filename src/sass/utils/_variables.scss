@@ -1,14 +1,10 @@
 $font-family: 'Montserrat';
 $body-line-height: 1;
-$text-base-size: 12px;
-$text-scale-ratio: 1.2;
-$text-xs: calc(#{$text-base-size} / (#{$text-scale-ratio} * #{$text-scale-ratio}));
-$text-sm: calc(#{$text-base-size} / #{$text-scale-ratio});
-$text-md: calc(#{$text-base-size} * #{$text-scale-ratio});
-$text-lg: calc(#{$text-base-size} * #{$text-scale-ratio} * #{$text-scale-ratio});
-$text-xl: calc(#{$text-base-size} * #{$text-scale-ratio} * #{$text-scale-ratio} * #{$text-scale-ratio});
-$text-xxl: calc(#{$text-base-size} * #{$text-scale-ratio} * #{$text-scale-ratio} * #{$text-scale-ratio} * #{$text-scale-ratio});
-$text-xxxl: calc(#{$text-base-size} * #{$text-scale-ratio} * #{$text-scale-ratio} * #{$text-scale-ratio} * #{$text-scale-ratio} * #{$text-scale-ratio});
+
+
+$text-sm: 12px;
+$text-base-size: 14px;
+$text-lg: 24px;
 
 $color-black: #000;
 $color-white: #FFF;
@@ -18,6 +14,15 @@ $linear-gradient-transparent-grey: linear-gradient(180deg, rgba(255, 255, 255, 0
 
 $logo-width-small: 145px;
 $logo-width-large: 210px;
+
+$tag-width: 115px;
+$tag-height: 25px;
+$tag-radius: 10px;
+
+$card-width: 340px;
+$card-height: 340px;
+$card-radius: 10px;
+$card-title-offset-left: 5px;
 
 $max-device-mobile: 480px;
 $max-device-tablet: 768px;

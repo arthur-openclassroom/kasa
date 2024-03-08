@@ -1,0 +1,13 @@
+@import '../utils/variables';
+
+.tag-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-red;
+    color: $color-white;
+    height: $tag-height;
+    width: $tag-width;
+    border-radius: $tag-radius;
+    font-size: $text-base-size;
+}

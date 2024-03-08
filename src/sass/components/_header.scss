@@ -12,6 +12,7 @@
 
     .logo {
         width: $logo-width-large;
+
         @media(max-width: $max-device-mobile) {
             width: $logo-width-small;
         }
@@ -20,6 +21,7 @@
     .menu {
         display: flex;
         column-gap: 50px;
+
         a {
             text-decoration: none;
             color: $color-black;
@@ -27,6 +29,10 @@
 
         a.active {
             text-decoration: underline;
-          }
+        }
+
+        @media(max-width: $max-device-mobile) {
+            font-size: $text-sm;
+        }
     }
 }
