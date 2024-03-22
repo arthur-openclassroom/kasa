@@ -1,0 +1,26 @@
+@import '../utils/variables';
+
+.profile-picture-component {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    img {
+        border-radius: 360px;
+        height: $profile-picture-size;
+        width: $profile-picture-size;
+
+        @media(max-width: $max-device-mobile) {
+            height: $profile-picture-size-small;
+            width: $profile-picture-size-small;
+        }
+    }
+
+    span {
+        color: $color-red;
+        white-space: pre-wrap;
+        text-align: right;
+        line-height: 1.5;
+        margin-right: 5px;
+    }
+}

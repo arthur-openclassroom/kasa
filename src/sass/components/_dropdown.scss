@@ -1,8 +1,8 @@
 @import '../utils/variables';
 
 .dropdown-component {
-    width: fit-content;
     font-size: $text-base-size;
+    width: 90%;
 
     @media(max-width: $max-device-mobile) {
         font-size: $text-sm;
@@ -12,19 +12,25 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        background-color: $color-red;
+        border-radius: $dropdown-radius-closed;
+        padding: 10px 20px 10px 10px;
+        position: relative;
+        z-index: 2;
+
+        @media(max-width: $max-device-mobile) {
+            padding: 5px 10px 5px 5px;
+        }
 
         .dropdown-title {
+            width: 100%;
             display: flex;
             align-items: center;
-            background-color: $color-red;
             color: $color-white;
-            border-radius: $dropdown-radius-closed;
-
-            padding: 10px 20px 10px 10px;
 
             @media(max-width: $max-device-mobile) {
                 font-size: $text-sm;
-                padding: 5px 10px 5px 5px;
+
             }
         }
 
@@ -47,6 +53,7 @@
     }
 
     .dropdown-content {
+        width: 100%;
         overflow: hidden;
         list-style-type: none;
         margin-top: -2px;
@@ -59,8 +66,9 @@
         &.opened {
             max-height: 100px;
             background-color: $dropdown-background-opened;
-            padding-top: 2px;
-            margin-top: -2px;
+            padding-top: 5px;
+            margin-top: -5px;
+            z-index: 0;
         }
     }
 }

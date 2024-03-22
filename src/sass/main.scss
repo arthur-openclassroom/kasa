@@ -1,7 +1,16 @@
 @import 'base/_typography';
 @import 'utils/_variables';
+
 @import 'components/header';
 @import 'components/footer';
+@import 'components/gallery';
 @import 'components/tag';
 @import 'components/card';
 @import 'components/dropdown';
+@import 'components/stars-notation';
+@import 'components/profile-picture';
+@import 'components/banner';
+
+@import 'pages/main';
+@import 'pages/home';
+@import 'pages/estate';

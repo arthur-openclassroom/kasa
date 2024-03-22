@@ -1,0 +1,14 @@
+@import '../utils/_variables';
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 40px 40px;
+
+    @media(max-width: $max-device-mobile) {
+        padding: 0px 5px;
+    }
+}

@@ -1,0 +1,14 @@
+@import '../utils/variables';
+
+.stars-notation-component {
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px;
+    margin-top: 15px;
+
+    @media(max-width: $max-device-mobile) {
+        svg {
+            width: 15px;
+        }
+    }
+}

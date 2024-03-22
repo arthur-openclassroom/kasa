@@ -1,0 +1,17 @@
+@import '../utils/_variables';
+
+.card-container {
+    padding: 20px;
+    width: fit-content;
+    background-color: $color-light-grey;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    justify-content: space-between;
+    border-radius: 25px;
+
+    @media(max-width: $max-device-mobile) {
+        background: none;
+        padding: 5px;
+    }
+}
