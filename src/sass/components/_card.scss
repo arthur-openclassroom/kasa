@@ -1,0 +1,33 @@
+@import '../utils/variables';
+
+.card-component {
+    height: $card-height;
+    width: $card-width;
+    border-radius: $card-radius;
+    font-size: $text-base-size;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+    img {
+        height: $card-height;
+        width: 100%;
+
+    }
+
+    .gradient {
+        position: absolute;
+        background: $linear-gradient-transparent-grey;
+        height: $card-height;
+        width: $card-width;
+        top: 0px;
+    }
+
+    .card-title {
+        position: absolute;
+        bottom: 20px;
+        left: $card-title-offset-left;
+        width: calc($card-width - $card-title-offset-left);
+        color: $color-white;
+    }
+}

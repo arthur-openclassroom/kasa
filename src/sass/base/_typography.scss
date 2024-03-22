@@ -1,0 +1,8 @@
+@import '../utils/variables';
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+    font-size: $text-base-size;
+    font-family: $font-family;
+    color: $color-black;
+}

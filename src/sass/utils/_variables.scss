@@ -1,0 +1,42 @@
+$font-family: 'Montserrat';
+$body-line-height: 1;
+
+
+$text-sm: 12px;
+$text-base-size: 14px;
+$text-lg: 24px;
+
+$color-black: #000;
+$color-white: #FFF;
+$color-red: #FF6060;
+$color-light-grey: rgba(246, 246, 246, 1);
+
+$linear-gradient-transparent-grey: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(10, 10, 10, 0) 42%, rgba(4, 4, 4, 0.205) 99.99%, rgba(0, 0, 0, 0.5) 100%);
+
+$logo-width-small: 145px;
+$logo-width-large: 210px;
+
+$tag-width: 115px;
+$tag-height: 25px;
+$tag-radius: 10px;
+
+$card-width: 340px;
+$card-height: 340px;
+
+$card-radius: 10px;
+$card-title-offset-left: 5px;
+
+$max-device-mobile: 480px;
+$max-device-tablet: 768px;
+$max-device-smallscreen: 1024px;
+$max-device-normalscreen: 1200px;
+
+$dropdown-radius-opened: 5px;
+$dropdown-radius-closed: 10px;
+
+$dropdown-background-opened: #F6F6F673;
+
+$footer-height: 209px;
+
+$profile-picture-size: 64px;
+$profile-picture-size-small: $profile-picture-size / 2;

@@ -1,0 +1,39 @@
+@import '../utils/variables';
+
+.header-component {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+
+    @media(max-width: $max-device-mobile) {
+        justify-content: flex-start;
+        column-gap: 50px;
+    }
+
+    .logo {
+        width: $logo-width-large;
+
+        @media(max-width: $max-device-mobile) {
+            width: $logo-width-small;
+        }
+    }
+
+    .menu {
+        display: flex;
+        column-gap: 50px;
+
+        a {
+            text-decoration: none;
+            color: $color-black;
+        }
+
+        a.active {
+            text-decoration: underline;
+        }
+
+        @media(max-width: $max-device-mobile) {
+            font-size: $text-sm;
+        }
+    }
+}

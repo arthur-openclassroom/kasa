@@ -1,0 +1,33 @@
+@import '../utils/variables';
+
+.notfound-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .big {
+        font-size: 288px;
+        font-weight: 700;
+        color: $color-red;
+        @media(max-width: $max-device-mobile) {
+            font-size: 96px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+    }
+
+    h1 {
+        font-size: 18px;
+        color: $color-red;
+        @media(max-width: $max-device-mobile) {
+            width: 80%;
+            text-align: center;
+        }
+    }
+
+    a {
+        margin-top: 50px;
+        margin-bottom: 100px;
+        color: $color-black;
+    }
+}
