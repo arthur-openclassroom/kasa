@@ -8,6 +8,7 @@ const ProfilePicture = (props) => {
                 {name} 
             </span>
             <img 
+                alt={"Photo de profil de l'hôte"}
                 src={props.img}
             />
         </div>

@@ -6,6 +6,7 @@
 
     @media(max-width: $max-device-mobile) {
         font-size: $text-sm;
+        width: 100%;
     }
 
     .dropdown-title-container {
@@ -16,7 +17,6 @@
         border-radius: $dropdown-radius-closed;
         padding: 10px 20px 10px 10px;
         position: relative;
-        z-index: 2;
 
         @media(max-width: $max-device-mobile) {
             padding: 5px 10px 5px 5px;

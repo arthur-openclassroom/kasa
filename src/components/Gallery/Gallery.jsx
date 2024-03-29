@@ -13,16 +13,18 @@ const Gallery = (props) => {
 
     return (
         <div className="gallery-component">
-            <img className="gallery-img" src={props.imgList[currentImg]} />
+            <img alt={"Logement"} className="gallery-img" src={props.imgList[currentImg]} />
             {numberOfImg > 1 &&
                 <>
                     <img
+                        alt="Flèche pour aller à l'image précédente"
                         src={ArrowUp}
                         className="arrow arrow-left"
                         onClick={prevImg}
                         width={50}
                     />
                     <img
+                        alt="Flèche pour aller à l'image suivante"
                         src={ArrowUp}
                         className="arrow arrow-right"
                         onClick={nextImg}

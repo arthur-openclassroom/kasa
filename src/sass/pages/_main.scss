@@ -6,9 +6,5 @@ html, body {
 }
 
 main {
-    padding: 40px 40px;
-
-    @media(max-width: $max-device-mobile) {
-        padding: 5px 5px;
-    }
+    padding: 2.5%;
 }

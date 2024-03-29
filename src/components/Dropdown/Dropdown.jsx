@@ -8,7 +8,7 @@ const Dropdown = ({ title, labelList }) => {
         <span className="dropdown-title">
           {title}
         </span>
-        <img src={ArrowUp} className={isOpened ? "opened" : ""} onClick={() => setOpened(!isOpened)} />
+        <img alt={"Flèche pour ouvrir/fermer le collapse"} src={ArrowUp} className={isOpened ? "opened" : ""} onClick={() => setOpened(!isOpened)} />
       </div>
       <ul className={`dropdown-content ${isOpened ? "opened" : ""}`} >
         {labelList.map((value) => {

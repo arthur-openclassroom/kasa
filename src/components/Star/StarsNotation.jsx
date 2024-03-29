@@ -11,6 +11,7 @@ const StarsNotation = (props) => {
         starArrayElements.push(<Star key={5-i} active={0} />)
     }
 
+
     return (
         <div className="stars-notation-component">
             {starArrayElements}
