@@ -6,10 +6,17 @@ import Tag from "../../components/Tag/Tag";
 import ProfilePicture from "../../components/ProfilePicture/ProfilePicture";
 import StarsNotation from "../../components/Star/StarsNotation";
 import Dropdown from "../../components/Dropdown/Dropdown";
+import { Navigate } from "react-router-dom";
 
 const Estate = (props) => {
   const { id } = useParams();
-  const currentEstate = logements[logements.findIndex((logement) => logement.id === id)];
+  const estateIndex = logements.findIndex((logement) => logement.id === id)
+
+  if (estateIndex === -1)
+    return (<Navigate to="/notfound" replace={true} />);
+
+  const currentEstate = logements[estateIndex];
+
   return (
     <div className="estate-page">
       <Gallery imgList={currentEstate.pictures} />
